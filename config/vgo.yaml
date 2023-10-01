@@ -1,0 +1,6 @@
+JWT :
+  ExpiresAt : 1 # 有效时长(小时)
+  SecretKey : vgoadmintemplatedsf232kjhlk # 密钥
+
+APP :
+  Port: 9093 # 程序端口

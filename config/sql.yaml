@@ -1,0 +1,16 @@
+SQL :
+  addr : 1.1.1.1
+  port : 3306
+  user : vgo
+  pass : 123456
+  database : vgo_admin
+  maxIdle: 20 # 空闲连接池数量
+  maxOpen: 100 # 最大连接数
+  maxLife: 30 # 连接后空闲状态维持时间(秒)
+
+
+Redis:
+  addr : 1.1.1.1:6379
+  password : "myredis1234"
+  db : 5 # 数据库编号
+  dialTimeout : 3 # 连接超时时间(秒)
